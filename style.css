@@ -120,15 +120,27 @@
 
 /* Styling language element */
 
+
+a {
+    text-decoration: none;
+}
+
+
 .lang-menu {
     margin-top: 25px;
+    position: relative;
 }
 .selected-lang {
     cursor: pointer;
     display: flex;
     justify-items: space-between;
-    line-height: 2;
+    /* line-height: 2; */
     width: 100px;
+    
+}
+
+.selected-lang:hover {
+    background-color: 1.5px solid white;
 }
 
 .selected-lang:before {
@@ -145,6 +157,10 @@
     padding: 0px;
     margin: 0px;
     border-radius: 5px;
+    display: none;
+    position: absolute;
+    top: 25px;
+    left: 0;
 }
 
 .lang-menu ul li {
@@ -173,3 +189,36 @@
     background-color: #f2f2f2;
 }
 
+.de:before {
+    background-image: url(https://flagsapi.com/de/shiny/32.png);
+
+}
+
+.us:before {
+    background-image: url(https://flagsapi.com/us/shiny/32.png);
+
+}
+
+.cn:before {
+    background-image: url(https://flagsapi.com/cn/shiny/32.png);
+
+}
+
+.ar:before {
+    background-image: url(https://flagsapi.com/ar/shiny/32.png);
+
+}
+
+.jp:before {
+    background-image: url(https://flagsapi.com/jp/shiny/32.png);
+
+}
+
+.fr:before {
+    background-image: url(https://flagsapi.com/fr/shiny/32.png);
+
+}
+
+.lang-menu:hover ul {
+    display: block;
+}
