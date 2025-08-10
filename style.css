@@ -239,3 +239,15 @@ a {
     font-size: 0.87rem;
     font-weight: 700;
 }
+
+
+/* Styling cart element */
+
+.nav-cart i {
+    font-size: 27px;
+}
+
+.nav-cart {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
