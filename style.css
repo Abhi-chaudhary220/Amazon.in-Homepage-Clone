@@ -117,6 +117,10 @@
 
 }
 
+.nav-search-border{
+    border: 2px solid transparent;
+}
+
 .nav-search:hover {
     border: 3px solid orange;
     border-radius: 7px;
@@ -250,7 +254,7 @@ a {
 
 .nav-cart {
     font-size: 0.85rem;
-    font-weight: 700;
+    font-weight: 200;
 }
 
 
@@ -265,4 +269,37 @@ a {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    font-size: 0.85rem;
+    font-weight: 00;
 }
+
+/* .panel i {
+    font-size: 0.8rem;
+}
+.panel-All {
+    font-weight: 200;
+    font-size: 0.7rem;
+    
+} */
+
+.All-logo i {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+.All-logo {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.AI-assistant {
+    border-radius: 18px;
+    background-color: #ffffff;
+    font-weight: 600;
+}
+
+.AI-assistant:hover {
+    background-color: rgb(244, 174, 108);
+}
+
+
