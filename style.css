@@ -40,6 +40,7 @@
     display: flex;
     margin-top: 2.9px;
     font-weight: bold;
+    position: relative;
     
     
 }
@@ -250,4 +251,18 @@ a {
 .nav-cart {
     font-size: 0.85rem;
     font-weight: 700;
+}
+
+
+/* Styling panel element */
+
+
+.panel {
+    background-color: #0f1111;
+    height: 40px;
+    color: white;
+    width: 1540px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
