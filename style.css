@@ -303,3 +303,41 @@ a {
 }
 
 
+/* styling main-section element */
+
+.main-section-img {
+    height: 510px;
+    width: 1540px;
+}
+
+.main-para {
+    background-color: rgb(210, 188, 188);
+    color: black;
+    height: 25px;
+    width: 1540px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-top: -4px;
+}
+
+
+.main-para a {
+    color: rgb(73, 73, 221);
+}
+
+
+/* styling shopping section element */
+
+.shopping-section {
+    display: flex;
+    justify-content: space-evenly;
+}
+.box {
+    height:400px;
+    width: 23%;
+    border: 2px solid black;
+    
+}
+
