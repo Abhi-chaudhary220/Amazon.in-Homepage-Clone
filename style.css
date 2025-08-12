@@ -450,3 +450,23 @@ footer {
 .footer-panel-2 ul {
     margin-top: 30px;
 }
+
+/* Styling third footer element */
+
+
+.footer-panel-3 {
+    background-color: #222f3d;
+    color: white;
+    border-top: 0.4px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+.footer-amazon-logo {
+    background-image: url("Amazon-logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
