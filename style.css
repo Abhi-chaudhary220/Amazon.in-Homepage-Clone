@@ -7,6 +7,8 @@
 .navbar{
     background-color:#0f1111;
     height: 60px;
+    width: 100%;
+    max-width: 1540px;
     color: white;
     display: flex;
     align-items: center;
@@ -22,7 +24,7 @@
     background-image: url("Amazon-logo.png");
     background-size: cover;
     height: 50px;
-    width: 100%;
+    width: 100px;
     }
 
 .border{
@@ -265,7 +267,8 @@ a {
     background-color: #0f1111;
     height: 40px;
     color: white;
-    width: 1540px;
+    width: 100%;
+    max-width: 1540px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -307,14 +310,16 @@ a {
 
 .main-section-img {
     height: 510px;
-    width: 1540px;
+    width:100%;
+    max-width: 1540px;
 }
 
 .main-para {
     background-color: rgb(210, 188, 188);
     color: black;
     height: 25px;
-    width: 1540px;
+    width: 100%;
+    max-width: 1540px;
     justify-content: center;
     display: flex;
     align-items: center;
@@ -332,12 +337,116 @@ a {
 
 .shopping-section {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
+    background-color: rgb(210, 238, 168);
 }
 .box {
     height:400px;
     width: 23%;
-    border: 2px solid black;
+    /* border: 2px solid black; */
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+    
+}
+ /* from here */
+.box {
+width: 23%;
+margin: 1%;
+box-sizing: border-box;
+}
+
+@media (max-width: 1024px) { /* Tablet view */
+.box {
+    width: 48%; /* 2 items per row */
+}
+}
+
+@media (max-width: 600px) { /* Mobile view */
+.box{
+    width: 98%; /* 1 item per row */
+}
+}
+
+.box img-1 {
+width: 100%;
+height: auto;
+display: block;
+}
+
+/* to here */
+
+
+.box h3 {
+    text-align: center;
     
 }
 
+.img-1 {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box a {
+    color:rgb(73, 73, 221);
+}
+
+
+/* Styling footer element */
+
+footer {
+    margin-top: 15px;
+}
+
+.footer-panel-1 {
+    background-color: #37475a;
+    height: 35px;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+    max-width: 1540px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+}
+
+.footer-panel-1-border {
+    border: 2px solid transparent;
+}
+
+.footer-panel-1-border:hover {
+    border: 2px solid white;
+}
+
+/* Styling second footer element */
+
+.footer-panel-2 {
+    background-color: #222f3d;
+    color: white;
+    height: 500px;
+    width: 100%;
+    max-width: 1540px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.footer-panel-2 ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+    color: #dddddd;
+}
+
+.footer-panel-2 ul {
+    margin-top: 30px;
+}
